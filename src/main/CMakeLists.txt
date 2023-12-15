@@ -4,6 +4,7 @@ set(SOURCES
     CmdParser.ixx
     main.cpp
     ProjMaker.ixx
+    utility.ixx
 )
 
 add_executable(${TARGET})

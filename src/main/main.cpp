@@ -1,15 +1,5 @@
 import proj_maker;
-#include <iostream>
-#include <string>
-
-auto exitMainWithFailure(const std::string& msg) -> int
-{
-    constexpr auto failureSign = -1;
-
-    std::cerr << msg;
-    return failureSign;
-}
-
+import utility;
 
 auto main(int argc, char* argv[]) -> int
 {
