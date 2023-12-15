@@ -7,7 +7,7 @@ auto main(int argc, char* argv[]) -> int
 
     if (argc < 3)
     {
-        return exitMainWithFailure("The call must have at least two arguments provided, "
+        return util::exitMainWithFailure("The call must have at least two arguments provided, "
                                    "e.g. \"teframe project_name cmake_version\"");
     }
 
