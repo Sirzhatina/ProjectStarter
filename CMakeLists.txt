@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.28)
 
-project(ProjectStarter VERSION 0.1 LANGUAGES CXX)
+project(ProjectStarter 
+    VERSION 0.1 
+    LANGUAGES CXX 
+    DESCRIPTION "Little script creating directory structure on the initial step of C++-project"
+)
 
 find_package(cxxopts REQUIRED)
 
