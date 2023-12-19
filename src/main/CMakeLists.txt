@@ -1,6 +1,7 @@
 set(TARGET ${CMAKE_PROJECT_NAME})
 
 set(SOURCES
+    App.hpp
     main.cpp
 )
 
