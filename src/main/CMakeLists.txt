@@ -7,3 +7,5 @@ set(SOURCES
 add_executable(${TARGET})
 
 target_sources(${TARGET} PRIVATE ${SOURCES})
+
+target_link_libraries(${TARGET} PRIVATE cxxopts::cxxopts)
