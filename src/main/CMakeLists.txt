@@ -2,6 +2,7 @@ set(TARGET ${CMAKE_PROJECT_NAME})
 
 set(SOURCES
     App.hpp
+    Generator.hpp
     main.cpp
     ProjectVariables.hpp
 )

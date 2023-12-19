@@ -6,6 +6,7 @@
 #include <tuple>
 #include <cxxopts.hpp>
 #include "ProjectVariables.hpp"
+#include "Generator.hpp"
 
 class App
 {
@@ -39,6 +40,9 @@ public:
         m_proVars.m_projectName = result["project-name"].as<std::string>();
         m_proVars.m_cmakeVersion = result["cmake-version"].as<std::string>();
         m_proVars.m_cppStandard = result["cpp-standard"].as<std::string>();
+
+        Generator gen(m_proVars);
+        gen.generate();
 
         return 0;
     }
